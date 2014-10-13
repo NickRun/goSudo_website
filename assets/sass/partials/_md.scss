@@ -1,0 +1,208 @@
+/*********************
+GENERAL STYLES
+*********************/
+
+
+.site-container, .nav-container, #site-nav {
+	width:$md-width;
+}
+
+.site-container, .nav-container {
+	margin:0 auto;
+}
+
+//show on medium to large screenss
+.md {
+	display:block;
+}
+
+.sm {
+	width:364px;
+	margin:0;
+	text-align:left;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+.sm.right {
+	padding-right:$md-padding;
+}
+
+.sm.left {
+	padding-left:$md-padding;
+}
+
+/*********************
+SITE NAVIGATION
+*********************/
+
+#site-nav {
+	text-align:right;
+	padding-right:$md-padding;
+	//
+	ul li {
+		float:left;
+	}
+}
+
+.tech-icons {
+	left:180px;
+	top:20px;
+	max-width:200px;
+	//
+	li {
+		//
+		a {
+			width:17px;
+			height:19px;
+		}
+	}
+}
+
+.site-nav-links {
+	margin-top:0;
+	padding:0;
+	display:inline-block!important;
+	//
+	li {
+		padding-left:20px;
+	}
+}
+
+#site-logo {
+	position:absolute;
+	left:$md-padding;
+	top:12px;
+	width:110px;
+	height:35px;
+	display:block;
+	background-size: 100% 100%;
+	background-image:url('../img/logo-sm-white.png');
+	@include mq(retina) { background-image:url('../img/logo-sm-white@2x.png'); }
+	background-repeat:no-repeat;
+	//
+	span {
+		display:none;
+	}
+}
+
+i.menu-icon {
+	display:none; //hide menu icon on medium to large screens
+}
+
+.phone-container {
+	display:none;
+}
+
+/*********************
+FEATURES
+*********************/
+
+
+.feature-list {
+	margin:22px 0 0 0;
+	@include mq(lg) { margin:52px 32px 0 0; }
+	padding:0;
+	float:right;
+	clear:right;
+	//
+	li {
+		padding:12px 0 12px 40px;
+		font-size:17px;
+		color:#fff;
+		list-style-type:none;
+		width:300px;
+		background-image:none!important;
+	}
+	.cash-phone {
+		margin-left:-14px;
+	}
+	.exclamation {
+		margin-left:-7px;
+	}
+	.pin {
+		margin-left:0;
+	}
+	.time {
+		margin-left:-7px;
+	}
+	.storefront {
+		margin-left:-14px;
+	}
+}
+
+#features-phone {
+	width:200px;
+	height:406px;
+	margin:50px 0 0 50px;
+	@include mq(lg) { width:356px; height:723px; margin-top:0;}
+	background-image:url('../img/features-phone.png');
+	@include mq(retina) { background-image:url('../img/features-phone@2x.png'); }
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+}
+
+/*********************
+DEALS
+*********************/
+
+.phone.pre-deals {
+	background-image:url('../img/backgrounds/deals-pre-md.jpg');
+	@include mq(retina) { background-image:url('../img/backgrounds/deals-pre-md@2x.jpg'); }
+	background-size:100%;
+	margin-top:-80px;
+	padding-bottom:71%;
+}
+
+#deals {
+	z-index:3;
+	//
+	.section-title {
+		margin-bottom:30px;
+		@include mq(lg) { margin-bottom:90px;}
+	}
+	//
+	p {
+		text-align:left; 
+		width:50%;
+		clear:left;
+		font-size:25px;
+	}
+}
+
+/*********************
+CASH
+*********************/
+
+.phone.pre-cash {
+	z-index:2;
+	background-image:url('../img/backgrounds/cash-pre-md.jpg');
+	@include mq(retina) { background-image:url('../img/backgrounds/cash-pre-md@2x.jpg'); }
+	background-size:100%;
+	margin-top:-80px;
+	padding-bottom:71%;
+}
+
+#cash {
+	margin-top:-107px;
+	z-index:3;
+	//
+	.section-title {
+		margin-bottom:30px;
+		@include mq(lg) { margin-bottom:90px;}
+	}
+	//
+	p {
+		text-align:left; 
+		width:50%;
+		clear:left;
+		font-size:25px;
+	}
+}

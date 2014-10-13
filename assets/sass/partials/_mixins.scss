@@ -1,0 +1,17 @@
+@mixin mq($mqType) {
+  @if $mqType == lg {
+    @media (min-width: $lg-width) { @content; }
+  }
+  @else if $mqType == md {
+    @media (min-width: $md-width) { @content; }
+  }
+  @if $mqType == less-than-md {
+    @media (max-width: 667px) { @content; }
+  }
+  @else if $mqType == retina {
+    @media (-webkit-min-device-pixel-ratio: 2), 
+	(min-resolution: 192dpi) { 
+		@content;
+	}
+  }
+}

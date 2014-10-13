@@ -1,0 +1,1231 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*********************
+GENERAL STYLES
+*********************/
+@font-face {
+  font-family: "Reader-Bold";
+  src: url("../fonts/Reader-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: "Reader-Regular";
+  src: url("../fonts/Reader-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: "Kansas-Bold";
+  src: url("../fonts/Kansas-Casual-Bold.otf") format("opentype"); }
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clearfix, .row:after, #site-nav ul:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  background-color: #ddd;
+  font-family: Reader-Regular; }
+
+p {
+  line-height: 1.5em; }
+
+.row {
+  float: left;
+  width: 100%;
+  position: relative; }
+
+.row-content, .row-content-with-image {
+  z-index: 2;
+  width: 100%;
+  padding: 0 5%;
+  overflow: auto; }
+  @media (min-width: 768px) {
+    .row-content, .row-content-with-image {
+      padding: 0 55px; } }
+
+.row-content-with-image {
+  position: absolute; }
+
+.row-inner {
+  width: 100%;
+  z-index: 2; }
+
+.md {
+  display: none; }
+
+.sm {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+
+.site-container {
+  background-color: #fff;
+  overflow: auto;
+  padding-top: 63px;
+  z-index: 1; }
+
+.nav-container {
+  position: relative;
+  z-index: 99; }
+
+.row-bg-image {
+  width: 100%;
+  height: auto; }
+
+.section-title {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .section-title.right {
+      text-align: right; }
+    .section-title.left {
+      text-align: left; } }
+  .section-title h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Kansas-Bold;
+    color: #fff;
+    font-size: 44px;
+    display: inline-block;
+    background-image: url("../img/section-title-decoration.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    clear: both;
+    background-position: bottom center;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      .section-title h2 {
+        margin-top: 60px; } }
+    @media (min-width: 1024px) {
+      .section-title h2 {
+        margin-top: 80px; } }
+    @media (min-width: 768px) {
+      .section-title h2 {
+        font-size: 60px; } }
+    @media (min-width: 1024px) {
+      .section-title h2 {
+        font-size: 77px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .section-title h2 {
+        background-image: url("../img/section-title-decoration@2x.gif"); } }
+
+.download-btns a {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 119px; }
+  @media (min-width: 768px) {
+    .download-btns a {
+      width: 184px; } }
+.download-btns .btn-app-store {
+  height: 37px;
+  background-image: url("../img/apple-store-btn.png"); }
+  @media (min-width: 768px) {
+    .download-btns .btn-app-store {
+      height: 55px; } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .download-btns .btn-app-store {
+      background-image: url("../img/apple-store-btn@2x.png"); } }
+.download-btns .btn-google-play {
+  height: 42px;
+  margin-top: 7px;
+  background-image: url("../img/google-play-btn.png"); }
+  @media (min-width: 768px) {
+    .download-btns .btn-google-play {
+      margin-top: 12px;
+      height: 64px; } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .download-btns .btn-google-play {
+      background-image: url("../img/google-play-btn@2x.png"); } }
+.download-btns span {
+  display: none; }
+
+/*********************
+SITE NAVIGATION
+*********************/
+#site-nav {
+  background-color: #26abcc;
+  height: 63px;
+  width: 100%;
+  position: fixed; }
+  #site-nav ul {
+    list-style-type: none; }
+
+.site-nav-links {
+  margin-top: 63px;
+  background-color: #26abcc;
+  display: none;
+  padding: 0 5%; }
+  .site-nav-links a {
+    font-family: Reader-Bold;
+    line-height: 63px;
+    color: #fff;
+    text-decoration: none; }
+    .site-nav-links a:hover, .site-nav-links a:active, .site-nav-links a:visited {
+      color: #fff; }
+    .site-nav-links a:hover {
+      text-decoration: underline; }
+
+.tech-icons {
+  position: absolute;
+  right: 55px;
+  top: 10px;
+  right: 5%;
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+  .tech-icons li {
+    margin-left: 17px;
+    float: left; }
+    .tech-icons li a {
+      display: block;
+      width: 33px;
+      height: 38px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+    .tech-icons li .facebook {
+      background-image: url("../img/tech-icons/facebook.png"); }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .tech-icons li .facebook {
+          background-image: url("../img/tech-icons/facebook@2x.png"); } }
+    .tech-icons li .twitter {
+      background-image: url("../img/tech-icons/twitter.png"); }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .tech-icons li .twitter {
+          background-image: url("../img/tech-icons/twitter@2x.png"); } }
+    .tech-icons li .apple {
+      background-image: url("../img/tech-icons/apple.png"); }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .tech-icons li .apple {
+          background-image: url("../img/tech-icons/apple@2x.png"); } }
+    .tech-icons li .android {
+      background-image: url("../img/tech-icons/android.png"); }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .tech-icons li .android {
+          background-image: url("../img/tech-icons/android@2x.png"); } }
+    .tech-icons li span {
+      display: none; }
+
+i.menu-icon {
+  width: 50px;
+  height: 31px;
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  top: 15px;
+  background-size: 100% 100%;
+  background-image: url("../img/menu-icon.png");
+  background-repeat: no-repeat;
+  cursor: pointer; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    i.menu-icon {
+      background-image: url("../img/menu-icon@2x.png"); } }
+  i.menu-icon span {
+    display: none; }
+
+/*********************
+PHONES
+*********************/
+.phone {
+  background-size: 220px 462px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 80%; }
+  .phone.pre-deals {
+    background-image: url("../img/sm-phones/deals.jpg"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .phone.pre-deals {
+        background-image: url("../img/sm-phones/deals@2x.jpg"); } }
+  .phone.pre-features {
+    background-image: url("../img/sm-phones/features.jpg"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .phone.pre-features {
+        background-image: url("../img/sm-phones/features@2x.jpg"); } }
+    @media (min-width: 768px) {
+      .phone.pre-features {
+        display: none; } }
+  .phone.pre-cash {
+    background-image: url("../img/sm-phones/cash.jpg"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .phone.pre-cash {
+        background-image: url("../img/sm-phones/cash@2x.jpg"); } }
+
+/*********************
+INTRO
+*********************/
+#intro {
+  background-image: url(../img/backgrounds/intro-sm.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 100%; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #intro {
+      background-image: url(../img/backgrounds/intro-sm@2x.jpg); } }
+  @media (min-width: 768px) {
+    #intro {
+      background-image: url(../img/backgrounds/intro-md.jpg); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    #intro {
+      background-image: url(../img/backgrounds/intro-md@2x.jpg); } }
+
+  @media (min-width: 768px) {
+    #intro {
+      padding-bottom: 58%; } }
+  #intro .logo-lg-white {
+    margin: 46px 0 0 0;
+    float: right; }
+    #intro .logo-lg-white span {
+      display: none; }
+  #intro .site-slogan {
+    font-family: "Reader-Bold";
+    font-size: 17px;
+    color: #fff;
+    clear: right;
+    float: right;
+    padding-top: 27px; }
+    @media (min-width: 768px) {
+      #intro .site-slogan {
+        font-size: 32px; } }
+    @media (min-width: 1024px) {
+      #intro .site-slogan {
+        font-size: 42px; } }
+    @media (min-width: 768px) {
+      #intro .site-slogan {
+        padding-top: 47px; } }
+    @media (min-width: 1024px) {
+      #intro .site-slogan {
+        padding-top: 57px; } }
+    #intro .site-slogan span {
+      display: block; }
+    #intro .site-slogan .line-2 {
+      padding-left: 30px; }
+      @media (min-width: 768px) {
+        #intro .site-slogan .line-2 {
+          padding-left: 60px; } }
+      @media (min-width: 1024px) {
+        #intro .site-slogan .line-2 {
+          padding-left: 100px; } }
+  #intro .download-btns {
+    clear: right;
+    float: right;
+    padding-top: 27px; }
+    @media (min-width: 768px) {
+      #intro .download-btns {
+        float: none;
+        clear: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 46px 0 0 55px; } }
+
+.logo-lg-white {
+  display: block;
+  width: 130px;
+  height: 52px;
+  background-image: url("../img/logo-lg-white.png");
+  background-size: 100% 100%; }
+  @media (min-width: 768px) {
+    .logo-lg-white {
+      width: 247px;
+      height: 96px; } }
+  @media (min-width: 1024px) {
+    .logo-lg-white {
+      width: 347px;
+      height: 135px; } }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo-lg-white {
+      background-image: url("../img/logo-lg-white@2x.png"); } }
+
+/*********************
+APP DESCRIPTION
+*********************/
+#app-description {
+  text-align: center; }
+  #app-description p {
+    font-size: 15px; }
+    @media (min-width: 768px) {
+      #app-description p {
+        font-size: 25px; } }
+  #app-description .summary {
+    font-family: Reader-Bold;
+    color: #26abcc;
+    font-size: 18px; }
+    @media (min-width: 768px) {
+      #app-description .summary {
+        font-size: 29px; } }
+  #app-description .break {
+    display: block; }
+    @media (min-width: 768px) {
+      #app-description .break {
+        display: inline; } }
+
+.site-offers-container {
+  text-align: center; }
+
+#site-offers {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block; }
+  #site-offers li {
+    float: left; }
+  #site-offers a {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+    #site-offers a span {
+      display: none; }
+  #site-offers .amazon-local {
+    width: 80px;
+    height: 16px;
+    margin-right: 17px;
+    background-image: url("../img/offers-icons/amazon-local.png"); }
+    @media (min-width: 768px) {
+      #site-offers .amazon-local {
+        width: 174px;
+        height: 36px;
+        margin-right: 50px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      #site-offers .amazon-local {
+        background-image: url("../img/offers-icons/amazon-local@2x.png"); } }
+  #site-offers .groupon {
+    width: 80px;
+    height: 35px;
+    margin-right: 17px;
+    background-image: url("../img/offers-icons/groupon.png"); }
+    @media (min-width: 768px) {
+      #site-offers .groupon {
+        width: 153px;
+        height: 68px;
+        margin-right: 50px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      #site-offers .groupon {
+        background-image: url("../img/offers-icons/groupon@2x.png"); } }
+  #site-offers .living-social {
+    width: 80px;
+    height: 29px;
+    background-image: url("../img/offers-icons/living-social.png"); }
+    @media (min-width: 768px) {
+      #site-offers .living-social {
+        width: 152px;
+        height: 56px; } }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      #site-offers .living-social {
+        background-image: url("../img/offers-icons/living-social@2x.png"); } }
+
+/*********************
+FEATURES
+*********************/
+#app-features {
+  background-image: url(../img/backgrounds/features-sm.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 4;
+  padding-bottom: 129%;
+  margin-top: -40%; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #app-features {
+      background-image: url(../img/backgrounds/features-sm@2x.png); } }
+  @media (min-width: 768px) {
+    #app-features {
+      background-image: url(../img/backgrounds/features-md.png); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    #app-features {
+      background-image: url(../img/backgrounds/features-md@2x.png); } }
+
+  @media (min-width: 768px) {
+    #app-features {
+      padding-bottom: 73%; } }
+  @media (min-width: 768px) {
+    #app-features {
+      margin-top: 0; } }
+
+.feature-list {
+  margin: 0;
+  padding: 0; }
+  .feature-list li {
+    padding: 12px 0 12px 40px;
+    font-size: 17px;
+    color: #fff;
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    background-size: 28px 30px; }
+  .feature-list .cash-phone {
+    background-image: url("../img/feature-list-icons/cash-phone.png"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .feature-list .cash-phone {
+        background-image: url("../img/feature-list-icons/cash-phone@2x.png"); } }
+  .feature-list .exclamation {
+    background-image: url("../img/feature-list-icons/exclamation.png"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .feature-list .exclamation {
+        background-image: url("../img/feature-list-icons/exclamation@2x.png"); } }
+  .feature-list .pin {
+    background-image: url("../img/feature-list-icons/pin.png"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .feature-list .pin {
+        background-image: url("../img/feature-list-icons/pin@2x.png"); } }
+  .feature-list .time {
+    background-image: url("../img/feature-list-icons/time.png"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .feature-list .time {
+        background-image: url("../img/feature-list-icons/time@2x.png"); } }
+  .feature-list .storefront {
+    background-image: url("../img/feature-list-icons/storefront.png"); }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      .feature-list .storefront {
+        background-image: url("../img/feature-list-icons/storefront@2x.png"); } }
+
+/*********************
+DEALS
+*********************/
+#deals {
+  background-image: url(../img/backgrounds/deals-sm.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 84%;
+  margin-top: -40%; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #deals {
+      background-image: url(../img/backgrounds/deals-sm@2x.png); } }
+  @media (min-width: 768px) {
+    #deals {
+      background-image: url(../img/backgrounds/deals-md.png); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    #deals {
+      background-image: url(../img/backgrounds/deals-md@2x.png); } }
+
+  @media (min-width: 768px) {
+    #deals {
+      padding-bottom: 74%; } }
+  @media (min-width: 768px) {
+    #deals {
+      margin-top: -8%; } }
+  #deals p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center; }
+
+/*********************
+CASH
+*********************/
+#cash {
+  z-index: 2;
+  background-image: url(../img/backgrounds/cash-sm.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 84%;
+  margin-top: -40%; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #cash {
+      background-image: url(../img/backgrounds/cash-sm@2x.png); } }
+  @media (min-width: 768px) {
+    #cash {
+      background-image: url(../img/backgrounds/cash-md.png); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    #cash {
+      background-image: url(../img/backgrounds/cash-md@2x.png); } }
+
+  @media (min-width: 768px) {
+    #cash {
+      padding-bottom: 74%; } }
+  @media (min-width: 768px) {
+    #cash {
+      margin-top: -8%; } }
+  #cash p {
+    color: #fff;
+    font-size: 14px;
+    text-align: center; }
+
+/*********************
+FOOTER
+*********************/
+#footer {
+  z-index: 1;
+  background-image: url(../img/backgrounds/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 60%;
+  margin-top: -18%; }
+  @media (min-width: 768px) {
+    #footer {
+      background-image: url(../img/backgrounds/footer.jpg); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    #footer {
+      background-image: url(../img/backgrounds/footer@2x.jpg); } }
+
+  #footer .download-btns {
+    position: absolute;
+    bottom: 5%;
+    right: 5%; }
+    @media (min-width: 768px) {
+      #footer .download-btns {
+        bottom: 55px;
+        right: 55px; } }
+
+#footer-logo-container {
+  margin: 12% auto 0 auto;
+  display: inline-block;
+  display: table;
+  position: relative; }
+  @media (min-width: 768px) {
+    #footer-logo-container {
+      margin: 25% auto 0 auto; } }
+  #footer-logo-container .logo-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-family: Reader-Bold;
+    font-size: 12px;
+    margin-left: -48px; }
+    @media (min-width: 768px) {
+      #footer-logo-container .logo-text {
+        margin-left: -150px;
+        font-size: 30px; } }
+    @media (min-width: 1024px) {
+      #footer-logo-container .logo-text {
+        margin-left: -150px; } }
+
+.logo-lg-white-footer {
+  display: block;
+  width: 173px;
+  height: 56px;
+  background-image: url(../img/logo-sm-white-footer.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo-lg-white-footer {
+      background-image: url(../img/logo-sm-white-footer@2x.png); } }
+  @media (min-width: 768px) {
+    .logo-lg-white-footer {
+      width: 365px;
+      height: 119px;
+      background-image: url(../img/logo-lg-white-footer.png); } }
+  @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    .logo-lg-white-footer {
+      background-image: url(../img/logo-lg-white-footer@2x.png); } }
+
+  @media (min-width: 1024px) {
+    .logo-lg-white-footer {
+      width: 465px;
+      height: 152px; } }
+  .logo-lg-white-footer span {
+    display: none; }
+
+.bottom {
+  color: #fff;
+  background-color: #cc2661;
+  display: table;
+  width: 100%;
+  padding: 6px 5%;
+  font-size: 11px;
+  position: relative; }
+  @media (min-width: 768px) {
+    .bottom {
+      padding: 15px 55px;
+      font-size: 12px; } }
+  @media (min-width: 768px) {
+    .bottom {
+      padding: 15px 55px;
+      font-size: 15px; } }
+  .bottom .social {
+    display: none; }
+    @media (min-width: 768px) {
+      .bottom .social {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 55px; } }
+  .bottom .copyright {
+    display: block;
+    float: left; }
+    @media (min-width: 768px) {
+      .bottom .copyright {
+        float: none;
+        text-align: center; } }
+    @media (min-width: 768px) {
+      .bottom .copyright .md {
+        display: inline-block; } }
+  .bottom .footer-nav {
+    position: absolute;
+    top: 6px;
+    right: 5%;
+    font-size: 11px; }
+    @media (min-width: 768px) {
+      .bottom .footer-nav {
+        top: 15px;
+        right: 55px; } }
+    .bottom .footer-nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      .bottom .footer-nav ul li {
+        margin: 0 0 0 20px;
+        padding: 0;
+        float: left; }
+        .bottom .footer-nav ul li a {
+          color: #fff;
+          font-size: 15px;
+          text-transform: uppercase;
+          font-size: 11px;
+          text-decoration: none; }
+          @media (min-width: 768px) {
+            .bottom .footer-nav ul li a {
+              font-size: 12px; } }
+          @media (min-width: 1024px) {
+            .bottom .footer-nav ul li a {
+              font-size: 15px; } }
+          .bottom .footer-nav ul li a:hover, .bottom .footer-nav ul li a:active, .bottom .footer-nav ul li a:focus {
+            text-decoration: underline; }
+
+@media screen and (min-width: 768px) {
+  /*********************
+  GENERAL STYLES
+  *********************/
+  .site-container, .nav-container, #site-nav {
+    width: 768px; }
+
+  .site-container, .nav-container {
+    margin: 0 auto; }
+
+  .md {
+    display: block; }
+
+  .sm {
+    width: 364px;
+    margin: 0;
+    text-align: left; }
+
+  .right {
+    float: right; }
+
+  .left {
+    float: left; }
+
+  .sm.right {
+    padding-right: 55px; }
+
+  .sm.left {
+    padding-left: 55px; }
+
+  /*********************
+  SITE NAVIGATION
+  *********************/
+  #site-nav {
+    text-align: right;
+    padding-right: 55px; }
+    #site-nav ul li {
+      float: left; }
+
+  .tech-icons {
+    left: 180px;
+    top: 20px;
+    max-width: 200px; }
+    .tech-icons li a {
+      width: 17px;
+      height: 19px; }
+
+  .site-nav-links {
+    margin-top: 0;
+    padding: 0;
+    display: inline-block !important; }
+    .site-nav-links li {
+      padding-left: 20px; }
+
+  #site-logo {
+    position: absolute;
+    left: 55px;
+    top: 12px;
+    width: 110px;
+    height: 35px;
+    display: block;
+    background-size: 100% 100%;
+    background-image: url("../img/logo-sm-white.png");
+    background-repeat: no-repeat; } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    #site-logo {
+      background-image: url("../img/logo-sm-white@2x.png"); } }
+@media screen and (min-width: 768px) {
+    #site-logo span {
+      display: none; }
+
+  i.menu-icon {
+    display: none; }
+
+  .phone-container {
+    display: none; }
+
+  /*********************
+  FEATURES
+  *********************/
+  .feature-list {
+    margin: 22px 0 0 0;
+    padding: 0;
+    float: right;
+    clear: right; } }
+  @media screen and (min-width: 768px) and (min-width: 1024px) {
+    .feature-list {
+      margin: 52px 32px 0 0; } }
+@media screen and (min-width: 768px) {
+    .feature-list li {
+      padding: 12px 0 12px 40px;
+      font-size: 17px;
+      color: #fff;
+      list-style-type: none;
+      width: 300px;
+      background-image: none !important; }
+    .feature-list .cash-phone {
+      margin-left: -14px; }
+    .feature-list .exclamation {
+      margin-left: -7px; }
+    .feature-list .pin {
+      margin-left: 0; }
+    .feature-list .time {
+      margin-left: -7px; }
+    .feature-list .storefront {
+      margin-left: -14px; }
+
+  #features-phone {
+    width: 200px;
+    height: 406px;
+    margin: 50px 0 0 50px;
+    background-image: url("../img/features-phone.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute; } }
+  @media screen and (min-width: 768px) and (min-width: 1024px) {
+    #features-phone {
+      width: 356px;
+      height: 723px;
+      margin-top: 0; } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    #features-phone {
+      background-image: url("../img/features-phone@2x.png"); } }
+
+@media screen and (min-width: 768px) {
+  /*********************
+  DEALS
+  *********************/
+  .phone.pre-deals {
+    background-image: url("../img/backgrounds/deals-pre-md.jpg");
+    background-size: 100%;
+    margin-top: -80px;
+    padding-bottom: 71%; } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .phone.pre-deals {
+      background-image: url("../img/backgrounds/deals-pre-md@2x.jpg"); } }
+
+@media screen and (min-width: 768px) {
+  #deals {
+    z-index: 3; }
+    #deals .section-title {
+      margin-bottom: 30px; } }
+    @media screen and (min-width: 768px) and (min-width: 1024px) {
+      #deals .section-title {
+        margin-bottom: 90px; } }
+@media screen and (min-width: 768px) {
+    #deals p {
+      text-align: left;
+      width: 50%;
+      clear: left;
+      font-size: 25px; }
+
+  /*********************
+  CASH
+  *********************/
+  .phone.pre-cash {
+    z-index: 2;
+    background-image: url("../img/backgrounds/cash-pre-md.jpg");
+    background-size: 100%;
+    margin-top: -80px;
+    padding-bottom: 71%; } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .phone.pre-cash {
+      background-image: url("../img/backgrounds/cash-pre-md@2x.jpg"); } }
+
+@media screen and (min-width: 768px) {
+  #cash {
+    margin-top: -107px;
+    z-index: 3; }
+    #cash .section-title {
+      margin-bottom: 30px; } }
+    @media screen and (min-width: 768px) and (min-width: 1024px) {
+      #cash .section-title {
+        margin-bottom: 90px; } }
+@media screen and (min-width: 768px) {
+    #cash p {
+      text-align: left;
+      width: 50%;
+      clear: left;
+      font-size: 25px; } }
+@media screen and (min-width: 1024px) {
+  /*********************
+  GENERAL STYLES
+  *********************/
+  .site-container, .nav-container, #site-nav {
+    width: 1024px; }
+
+  /*********************
+  SITE NAVIGATION
+  *********************/
+  .site-nav-links li {
+    padding-left: 47px; }
+
+  .tech-icons {
+    left: 203px; } }
+
+/*# sourceMappingURL=main.css.map */

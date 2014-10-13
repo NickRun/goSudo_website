@@ -1,0 +1,11 @@
+{
+  "name": "goSudo",
+  "description": "A website for goSudo",
+  "author": "Nick Scipione <nscipione@gmail.com>",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "engine": "node 0.4.1"
+}

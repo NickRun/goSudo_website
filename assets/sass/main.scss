@@ -1,0 +1,22 @@
+@import 'partials/_variables.scss'; 
+@import 'partials/_mixins.scss';
+
+//Normalize makes browsers render all elements more consistently and in line with modern standards
+@import 'partials/_normalize.scss';
+
+//Mobile-first styling
+@import 'partials/_base.scss';
+
+@media screen and (min-width: $md-width) {
+	@import 'partials/_md.scss';
+}
+
+@media screen and (min-width: $lg-width) {
+	@import 'partials/_lg.scss';
+}
+
+//retina-specific styling
+@media (-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	@import 'partials/_retina.scss';
+}
