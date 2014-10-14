@@ -175,6 +175,11 @@ SITE NAVIGATION
 	background-color:$nav-background-color;
 	display:none; //hide for small screens
 	padding:0 $sm-padding;
+	display:none;
+	//
+	&.activate {
+		display:block!important;
+	}
 	//
 	a {
 		font-family:Reader-Bold;
