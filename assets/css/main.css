@@ -1086,6 +1086,8 @@ FOOTER
     margin-top: 0;
     padding: 0;
     display: inline-block !important; }
+    .site-nav-links.activate {
+      display: inline-block !important; }
     .site-nav-links li {
       padding-left: 20px;
       display: block !important; }

@@ -70,6 +70,10 @@ SITE NAVIGATION
 	padding:0;
 	display:inline-block!important;
 	//
+	&.activate {
+		display:inline-block!important;
+	}
+	//
 	li {
 		padding-left:20px;
 		display:block!important;
