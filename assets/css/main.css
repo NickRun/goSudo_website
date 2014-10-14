@@ -1225,9 +1225,7 @@ FOOTER
   .site-container, .nav-container, #site-nav {
     width: 1024px; }
 
-  /*********************
-  SITE NAVIGATION
-  *********************/
+
   .site-nav-links li {
     padding-left: 47px; }
 
@@ -1235,3 +1233,31 @@ FOOTER
     left: 203px; } }
 
 /*# sourceMappingURL=main.css.map */
+
+
+  /*********************
+  Dot Path Scroll 
+  *********************/
+
+#box {
+      width:100px;
+      height:100px;
+      background:blue;
+      position:fixed;
+      z-index: 1000;
+    }
+
+    #box > img {
+      margin:10px;
+    }
+
+svg {
+    /*
+      The SVG needs to be rendered in order to work with it.
+      But we want it "invisible".
+    */
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 99;
+    }
