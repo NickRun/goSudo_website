@@ -7,5 +7,9 @@
     "grunt-contrib-sass": "^0.7.3",
     "grunt-contrib-watch": "~0.4.4"
   },
-  "engine": "node 0.4.1"
+  "engine": "node 0.4.1",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/nscipione/goSudo_website"
+	}
 }
