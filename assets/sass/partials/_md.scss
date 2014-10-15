@@ -158,11 +158,24 @@ DEALS
 *********************/
 
 .phone.pre-deals {
-	background-image:url('../img/backgrounds/deals-pre-md.jpg');
-	@include mq(retina) { background-image:url('../img/backgrounds/deals-pre-md@2x.jpg'); }
 	background-size:100%;
 	margin-top:-80px;
 	padding-bottom:71%;
+}
+
+.phone.pre-deals.deals1 {
+	background-image:url('../img/backgrounds/deals-pre-md.jpg');
+	@include mq(retina) { background-image:url('../img/backgrounds/deals-pre-md@2x.jpg'); }
+}
+
+.phone.pre-deals.deals2 {
+	background-image:url('../img/backgrounds/deals2-pre-md.jpg');
+	@include mq(retina) { background-image:url('../img/backgrounds/deals2-pre-md@2x.jpg'); }
+}
+
+.phone.pre-deals.deals3 {
+	background-image:url('../img/backgrounds/deals3-pre-md.jpg');
+	@include mq(retina) { background-image:url('../img/backgrounds/deals3-pre-md@2x.jpg'); }
 }
 
 #deals {

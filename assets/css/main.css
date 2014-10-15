@@ -856,7 +856,7 @@ DEALS
       padding-bottom: 74%; } }
   @media (min-width: 768px) {
     #deals {
-      margin-top: -8%; } }
+      margin-top: -12%; } }
   #deals p {
     color: #fff;
     font-size: 13px;
@@ -1161,13 +1161,29 @@ FOOTER
   DEALS
   *********************/
   .phone.pre-deals {
-    background-image: url("../img/backgrounds/deals-pre-md.jpg");
     background-size: 100%;
     margin-top: -80px;
-    padding-bottom: 71%; } }
+    padding-bottom: 71%; }
+
+  .phone.pre-deals.deals1 {
+    background-image: url("../img/backgrounds/deals-pre-md.jpg"); } }
   @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
-    .phone.pre-deals {
+    .phone.pre-deals.deals1 {
       background-image: url("../img/backgrounds/deals-pre-md@2x.jpg"); } }
+
+@media screen and (min-width: 768px) {
+  .phone.pre-deals.deals2 {
+    background-image: url("../img/backgrounds/deals2-pre-md.jpg"); } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .phone.pre-deals.deals2 {
+      background-image: url("../img/backgrounds/deals2-pre-md@2x.jpg"); } }
+
+@media screen and (min-width: 768px) {
+  .phone.pre-deals.deals3 {
+    background-image: url("../img/backgrounds/deals3-pre-md.jpg"); } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .phone.pre-deals.deals3 {
+      background-image: url("../img/backgrounds/deals3-pre-md@2x.jpg"); } }
 
 @media screen and (min-width: 768px) {
   #deals {

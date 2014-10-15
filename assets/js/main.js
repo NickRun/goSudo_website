@@ -26,6 +26,10 @@ jQuery(function($) {
 		$(".storefront").on('click', function(){
 			$('#features-phone').css({'background-position':'-1560px 0'});
 		});
+		//assign random class
+		var dc = ['deals1','deals2', 'deals3']; //add as many classes as u want
+		var random = Math.floor(Math.random()*dc.length);
+		$('.pre-deals').addClass(dc[random]);
 	});
 });
 
