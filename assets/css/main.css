@@ -1043,11 +1043,15 @@ FOOTER
 /*********************
 ABOUT US
 *********************/
-#aboutus .section-title h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #000;
-  font-size: 44px; }
+#aboutus .section-title {
+  text-align: left; }
+  #aboutus .section-title h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 44px;
+    background-image: url("../img/secondary-header.png");
+    background-repeat: no-repeat; }
 
 @media screen and (min-width: 768px) {
   /*********************
