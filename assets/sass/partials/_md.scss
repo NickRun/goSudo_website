@@ -143,13 +143,14 @@ FEATURES
 }
 
 #features-phone {
-	width:309px;
-	height:804px;
+	width:200px;
+	height:406px;
 	margin:50px 0 0 50px;
-	@include mq(lg) { margin-top:0;}
-	background-position:0 0;
+	@include mq(lg) { width:356px; height:723px; margin-top:0;}
 	background-image:url('../img/features-phone.png');
+	@include mq(retina) { background-image:url('../img/features-phone@2x.png'); }
 	background-repeat:no-repeat;
+	background-size:100% 100%;
 	position:absolute;
 }
 

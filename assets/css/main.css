@@ -440,7 +440,7 @@ p {
     color: #fff;
     font-size: 44px;
     display: inline-block;
-    background-image: url("../img/section-title-decoration.gif");
+    background-image: url("../img/section-title-decoration.png");
     background-repeat: no-repeat;
     background-size: 100%;
     clear: both;
@@ -460,7 +460,7 @@ p {
         font-size: 77px; } }
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       .section-title h2 {
-        background-image: url("../img/section-title-decoration@2x.gif"); } }
+        background-image: url("../img/section-title-decoration@2x.png"); } }
 
 .download-btns a {
   display: block;
@@ -1146,16 +1146,21 @@ FOOTER
       margin-left: -14px; }
 
   #features-phone {
-    width: 309px;
-    height: 804px;
+    width: 200px;
+    height: 406px;
     margin: 50px 0 0 50px;
-    background-position: 0 0;
     background-image: url("../img/features-phone.png");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     position: absolute; } }
   @media screen and (min-width: 768px) and (min-width: 1024px) {
     #features-phone {
+      width: 356px;
+      height: 723px;
       margin-top: 0; } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    #features-phone {
+      background-image: url("../img/features-phone@2x.png"); } }
 
 @media screen and (min-width: 768px) {
   /*********************
@@ -1227,6 +1232,20 @@ FOOTER
     padding-left: 47px; }
 
   .tech-icons {
-    left: 203px; } }
+    left: 203px; }
+
+  .feature-list {
+    margin: 22px 0 0 0;
+    padding: 0;
+    float: right;
+    clear: right; } }
+  @media screen and (min-width: 1024px) and (min-width: 1024px) {
+    .feature-list {
+      margin: 52px 32px 0 0; } }
+@media screen and (min-width: 1024px) {
+    .feature-list li {
+      padding: 12px 0 20px 40px;
+      font-size: 25px;
+      width: 390px; } }
 
 /*# sourceMappingURL=main.css.map */
