@@ -10,6 +10,22 @@ jQuery(function($) {
 	    $(".site-nav-links a").on('click', function(){
 		    toggleMenu();
 		});
+		//switch features phone
+		$(".cash-phone").on('click', function(){
+			$('#features-phone').css({'background-position':'0 0'});
+		});
+		$(".exclamation").on('click', function(){
+			$('#features-phone').css({'background-position':'-390px 0'});
+		});
+		$(".pin").on('click', function(){
+			$('#features-phone').css({'background-position':'-780px 0'});
+		});
+		$(".time").on('click', function(){
+			$('#features-phone').css({'background-position':'-1170px 0'});
+		});
+		$(".storefront").on('click', function(){
+			$('#features-phone').css({'background-position':'-1560px 0'});
+		});
 	});
 });
 
