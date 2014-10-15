@@ -1052,8 +1052,10 @@ ABOUT US
     font-size: 44px;
     background-image: url("../img/secondary-header.png");
     background-repeat: no-repeat;
-    min-width: 594px;
     padding-bottom: 40px; }
+    @media (min-width: 768px) {
+      #aboutus .section-title h2 {
+        min-width: 594px; } }
 
 @media screen and (min-width: 768px) {
   /*********************

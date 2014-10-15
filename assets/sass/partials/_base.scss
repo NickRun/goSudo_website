@@ -682,7 +682,7 @@ ABOUT US
 			font-size:44px;
 			background-image:url('../img/secondary-header.png');
 			background-repeat:no-repeat;
-			min-width:594px;
+			@include mq(md) { min-width:594px;}
 			padding-bottom:40px;
 		}
 	}
