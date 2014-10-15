@@ -110,8 +110,8 @@ p {
 		@include mq(md) { font-size:60px; }
 		@include mq(lg) { font-size:77px; }
 		display:inline-block;
-		background-image:url('../img/section-title-decoration.gif');
-		@include mq(retina) { background-image:url('../img/section-title-decoration@2x.gif'); }
+		background-image:url('../img/section-title-decoration.png');
+		@include mq(retina) { background-image:url('../img/section-title-decoration@2x.png'); }
 		background-repeat:no-repeat;
 		background-size:100%;
 		clear:both;

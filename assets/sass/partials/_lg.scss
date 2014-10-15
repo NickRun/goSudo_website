@@ -21,3 +21,18 @@ SITE NAVIGATION
 .tech-icons {
 	left:203px;
 }
+
+
+.feature-list {
+	margin:22px 0 0 0;
+	@include mq(lg) { margin:52px 32px 0 0; }
+	padding:0;
+	float:right;
+	clear:right;
+	//
+	li {
+		padding:12px 0 20px 40px;
+		font-size:25px;
+		width:390px;
+	}
+}
