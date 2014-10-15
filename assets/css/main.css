@@ -1248,11 +1248,7 @@ FOOTER
     margin: 22px 0 0 0;
     padding: 0;
     float: right;
-    clear: right; } }
-  @media screen and (min-width: 1024px) and (min-width: 1024px) {
-    .feature-list {
-      margin: 52px 32px 0 0; } }
-@media screen and (min-width: 1024px) {
+    clear: right; }
     .feature-list li {
       padding: 12px 0 20px 40px;
       font-size: 25px;
