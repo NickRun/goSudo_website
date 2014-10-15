@@ -859,8 +859,9 @@ DEALS
       margin-top: -8%; } }
   #deals p {
     color: #fff;
-    font-size: 14px;
-    text-align: center; }
+    font-size: 13px;
+    text-align: center;
+    margin: 8px 0 0 0; }
 
 /*********************
 CASH
@@ -890,8 +891,9 @@ CASH
       margin-top: -8%; } }
   #cash p {
     color: #fff;
-    font-size: 14px;
-    text-align: center; }
+    font-size: 12px;
+    text-align: center;
+    margin: 8px 0 0 0; }
 
 /*********************
 FOOTER
