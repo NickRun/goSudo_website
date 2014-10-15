@@ -230,10 +230,11 @@ FOOTER
 
 .bottom {
 	.tech-icons {
-		right:inherit;
-		top:inherit;
 		left:0;
 		position:static;
+		top:0;
+		margin:0;
+		padding:0;
 		list-style-type:none;
 	}
 }

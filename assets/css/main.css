@@ -516,7 +516,7 @@ SITE NAVIGATION
   .site-nav-links.activate {
     display: block !important; }
   .site-nav-links a {
-    font-family: Reader-Bold;
+    font-family: Reader;
     line-height: 63px;
     color: #fff;
     text-decoration: none; }
@@ -1040,6 +1040,15 @@ FOOTER
           .bottom .footer-nav ul li a:hover, .bottom .footer-nav ul li a:active, .bottom .footer-nav ul li a:focus {
             text-decoration: underline; }
 
+/*********************
+ABOUT US
+*********************/
+#aboutus .section-title h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 44px; }
+
 @media screen and (min-width: 768px) {
   /*********************
   GENERAL STYLES
@@ -1236,10 +1245,11 @@ FOOTER
   FOOTER
   *********************/
   .bottom .tech-icons {
-    right: inherit;
-    top: inherit;
     left: 0;
     position: static;
+    top: 0;
+    margin: 0;
+    padding: 0;
     list-style-type: none; } }
 @media screen and (min-width: 1024px) {
   /*********************
