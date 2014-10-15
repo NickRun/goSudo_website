@@ -223,3 +223,17 @@ CASH
 		font-size:25px;
 	}
 }
+
+/*********************
+FOOTER
+*********************/
+
+.bottom {
+	.tech-icons {
+		right:inherit;
+		top:inherit;
+		left:0;
+		position:static;
+		list-style-type:none;
+	}
+}

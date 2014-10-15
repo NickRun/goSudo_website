@@ -494,6 +494,9 @@ p {
   display: none; }
 
 /*********************
+JUMP LINKS
+*********************/
+/*********************
 SITE NAVIGATION
 *********************/
 #site-nav {
@@ -1227,7 +1230,17 @@ FOOTER
       text-align: left;
       width: 50%;
       clear: left;
-      font-size: 25px; } }
+      font-size: 25px; }
+
+  /*********************
+  FOOTER
+  *********************/
+  .bottom .tech-icons {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    position: static;
+    list-style-type: none; } }
 @media screen and (min-width: 1024px) {
   /*********************
   GENERAL STYLES
