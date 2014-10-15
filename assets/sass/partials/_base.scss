@@ -32,7 +32,7 @@ body {
 }
 
 p {
-	line-height:1.5em;
+	line-height:1.3em;
 }
 
 .row {
@@ -49,7 +49,7 @@ p {
 	z-index:2;
 	width:100%;
 	padding:0 $sm-padding;
-	@include mq(md) { padding:0 $md-padding; }
+	@include mq(md) { padding:40px $md-padding; }
 	overflow:auto;
 }
 
@@ -95,15 +95,14 @@ p {
 	text-align:center;
 	//
 	@include mq(md) { 
-		&.right {text-align:right;} 
-		&.left {text-align:left;} 
+		&.right {text-align:right; padding-right: 21px;} 
+		&.left {text-align:left; margin-top: 30px;} 
 	}
 	//
 	h2 {
-		margin-top:30px;
-		margin-bottom:10px;
-		@include mq(md) { margin-top:60px; }
-		@include mq(lg) { margin-top:80px; }
+		margin-bottom:20px;
+		@include mq(md) { margin-top:30px; }
+		@include mq(lg) { margin-top:65px; }
 		font-family:Kansas-Bold;
 		color:#fff;
 		font-size:44px;
@@ -116,7 +115,7 @@ p {
 		background-size:100%;
 		clear:both;
 		background-position:bottom center;
-		padding-bottom:30px;
+		padding-bottom:40px;
 	}
 }
 
@@ -274,7 +273,8 @@ PHONES
 	background-size:220px 462px;
 	background-repeat:no-repeat;
 	background-position:top center;
-	padding-bottom:80%;
+	padding-bottom:550px;
+	margin-top:10%;
 	&.pre-deals {
 		background-image:url('../img/sm-phones/deals.jpg');
 		@include mq(retina) { background-image:url('../img/sm-phones/deals@2x.jpg'); }
@@ -308,6 +308,7 @@ INTRO
 	//
 	.logo-lg-white {
 		margin:46px 0 0 0;
+		@include mq(md) { margin:60px 0 0 0; }
 		float:right;
 		//
 		span {
@@ -318,14 +319,14 @@ INTRO
 	.site-slogan {
 		font-family: "Reader-Bold";
 		font-size:17px;
-		@include mq(md) { font-size:32px }
-		@include mq(lg) { font-size:42px }
+		@include mq(md) { font-size:42px }
+		@include mq(lg) { font-size:58px }
 		color:#fff;
 		clear:right;
 		float:right;
 		padding-top:27px;
-		@include mq(md) { padding-top:47px; }
-		@include mq(lg) { padding-top:57px; }
+		@include mq(md) { padding-top:57px; }
+		@include mq(lg) { padding-top:89px; }
 		//
 		span {
 			display:block;
@@ -365,20 +366,21 @@ APP DESCRIPTION
 	text-align:center;
 	//
 	p {
-		font-size:15px;
-		@include mq(md) { font-size:25px; }
+		font-size:26px;
+		@include mq(md) { font-size:33px; }
+		@include mq(lg) { font-size:29px; }
 	}
 	//
 	.summary {
 		font-family:Reader-Bold;
 		color:$blue;
-		font-size:18px;
-		@include mq(md) { font-size:29px; }
+		font-size:30px;
+		@include mq(md) { font-size:40px; }
 	}
 	//
 	.break {
 		display:block;
-		@include mq(md) { display:inline; }
+		@include mq(lg) { display:inline; }
 	}
 }
 
@@ -388,8 +390,9 @@ APP DESCRIPTION
 
 #site-offers {
 	list-style-type:none;
-	padding:0;
+	padding:5% 0 0 0;
 	display:inline-block;
+	@include mq(md) { padding:5% 0 9% 0; }
 	//
 	li {
 		float:left;
@@ -408,6 +411,7 @@ APP DESCRIPTION
 	.amazon-local {
 		width:80px;
 		height:16px;
+		margin-top:12%;
 		margin-right:17px;
 		@include mq(md) { width:174px; height:36px; margin-right:50px;}
 		background-image:url('../img/offers-icons/amazon-local.png');
@@ -458,7 +462,7 @@ FEATURES
 	//
 	li {
 		padding:12px 0 12px 40px;
-		font-size:17px;
+		font-size:21px;
 		color:#fff;
 		list-style-type:none;
 		background-repeat:no-repeat;
@@ -507,9 +511,9 @@ DEALS
 	//
 	p {
 		color:#fff;
-		font-size:13px;
+		font-size:23px;
 		text-align:center;
-		margin:8px 0 0 0;
+		margin:20px 0 0 0;
 	}
 }
 
@@ -534,9 +538,9 @@ CASH
 	//
 	p {
 		color:#fff;
-		font-size:12px;
+		font-size:23px;
 		text-align:center;
-		margin:8px 0 0 0;
+		margin:20px 0 0 0;
 	}
 }
 
@@ -555,6 +559,7 @@ FOOTER
 	background-size:100%;
 	padding-bottom:60%;
 	margin-top:-18%;
+	@include mq(md) { margin-top:-9%;}
 	//
 	.download-btns {
 		position:absolute;
@@ -566,7 +571,7 @@ FOOTER
 
 #footer-logo-container {
 	margin:12% auto 0 auto;
-	@include mq(md) { margin:25% auto 0 auto; }
+	@include mq(md) { margin:10% auto 0 auto; }
 	display:inline-block;
 	display: table;
 	position:relative;

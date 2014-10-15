@@ -105,6 +105,7 @@ i.menu-icon {
 	display:none;
 }
 
+
 /*********************
 FEATURES
 *********************/
@@ -182,15 +183,16 @@ DEALS
 	z-index:3;
 	//
 	.section-title {
-		margin-bottom:30px;
-		@include mq(lg) { margin-bottom:90px;}
+		margin-bottom:15px;
+		@include mq(lg) { margin-bottom:30px;}
 	}
 	//
 	p {
 		text-align:left; 
 		width:50%;
 		clear:left;
-		font-size:25px;
+		font-size:22px;
+		@include mq(lg) { font-size:30px;}
 	}
 }
 
@@ -213,14 +215,15 @@ CASH
 	//
 	.section-title {
 		margin-bottom:30px;
-		@include mq(lg) { margin-bottom:90px;}
+		@include mq(lg) { margin-bottom:30px;}
 	}
 	//
 	p {
 		text-align:left; 
 		width:50%;
 		clear:left;
-		font-size:25px;
+		font-size:22px;
+		@include mq(lg) { font-size:30px;}
 	}
 }
 
