@@ -12,19 +12,19 @@ jQuery(function($) {
 		});
 		//switch features phone
 		$(".cash-phone").on('click', function(){
-			$('#features-phone').css({'background-position':'0 0'});
+			$('#features-phone').css({'background-image':'url(assets/img/feature-phones/earn-cash-lg.png)'});
 		});
 		$(".exclamation").on('click', function(){
-			$('#features-phone').css({'background-position':'-390px 0'});
+			$('#features-phone').css({'background-image':'url(assets/img/feature-phones/exclamation-lg.png)'});
 		});
 		$(".pin").on('click', function(){
-			$('#features-phone').css({'background-position':'-780px 0'});
+			$('#features-phone').css({'background-image':'url(assets/img/feature-phones/pin-lg.png)'});
 		});
 		$(".time").on('click', function(){
-			$('#features-phone').css({'background-position':'-1170px 0'});
+			$('#features-phone').css({'background-image':'url(assets/img/feature-phones/storefront-lg.png)'});
 		});
 		$(".storefront").on('click', function(){
-			$('#features-phone').css({'background-position':'-1560px 0'});
+			$('#features-phone').css({'background-image':'url(assets/img/feature-phones/time-lg.png)'});
 		});
 		//assign random class
 		var dc = ['deals1','deals2', 'deals3']; //add as many classes as u want
@@ -32,6 +32,20 @@ jQuery(function($) {
 		$('.pre-deals').addClass(dc[random]);
 	});
 });
+
+function preload(phoneImages) {
+    $(phoneImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+preload([
+    '../img/feature-phones/earn-cash-lg.png',
+    '../img/feature-phones/exclamation-lg.png',
+    '../img/feature-phones/pin-lg.png',
+    '../img/feature-phones/storefront-lg.png',
+    '../img/feature-phones/time-lg.png'
+]);
 
 
 function toggleMenu() {
