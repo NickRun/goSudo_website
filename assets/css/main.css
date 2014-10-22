@@ -437,6 +437,7 @@ p {
       margin-top: 30px; } }
   .section-title h2 {
     margin-bottom: 20px;
+    margin-top: 20%;
     font-family: Kansas-Bold;
     color: #fff;
     font-size: 44px;
@@ -792,7 +793,7 @@ FEATURES
   background-size: 132%;
   z-index: 4;
   padding-bottom: 174%;
-  margin-top: -40%; }
+  margin-top: -400px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #app-features {
       background-image: url(../img/backgrounds/features-sm@2x.png); } }
@@ -858,7 +859,7 @@ DEALS
   background-repeat: no-repeat;
   background-size: 168%;
   padding-bottom: 143%;
-  margin-top: -40%; }
+  margin-top: -400px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #deals {
       background-image: url(../img/backgrounds/deals-sm@2x.png); } }
@@ -893,7 +894,7 @@ CASH
   background-repeat: no-repeat;
   background-size: 205%;
   padding-bottom: 160%;
-  margin-top: -40%; }
+  margin-top: -400px; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #cash {
       background-image: url(../img/backgrounds/cash-sm@2x.png); } }
