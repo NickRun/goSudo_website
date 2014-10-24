@@ -1074,17 +1074,16 @@ ABOUT US
     margin-top: 30px;
     margin-bottom: 25px;
     color: #000;
-    font-size: 70px;
+    font-size: 50px;
     background-image: url("../img/secondary-header.png");
     background-repeat: no-repeat;
     padding-bottom: 40px; }
     @media (min-width: 768px) {
       #aboutus .section-title h2 {
-        min-width: 594px; } }
-#aboutus .row-content, #aboutus .row-content-with-image {
-  width: 75%; }
-  #aboutus .row-content p, #aboutus .row-content-with-image p {
-    font-size: 18px; }
+        min-width: 594px;
+        font-size: 70px; } }
+#aboutus .row-content p, #aboutus .row-content-with-image p {
+  font-size: 18px; }
 
 @media screen and (min-width: 768px) {
   /*********************
