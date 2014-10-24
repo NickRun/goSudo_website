@@ -30,6 +30,29 @@ jQuery(function($) {
 		var dc = ['deals1','deals2', 'deals3']; //add as many classes as u want
 		var random = Math.floor(Math.random()*dc.length);
 		$('.pre-deals').addClass(dc[random]);
+
+		//flow type
+		$('#cash p').flowtype({
+		 maximum   : 768,
+         minimum   : 320,
+         maxFont   : 50,
+         minFont   : 23,
+         fontRatio : 12
+		});
+		$('#deals p').flowtype({
+		 maximum   : 768,
+         minimum   : 320,
+         maxFont   : 50,
+         minFont   : 23,
+         fontRatio : 12
+		});
+		$('.feature-list li').flowtype({
+		 maximum   : 768,
+         minimum   : 320,
+         maxFont   : 50,
+         minFont   : 23,
+         fontRatio : 12
+		});
 	});
 });
 
